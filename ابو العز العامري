@@ -1,0 +1,232 @@
+<html lang="ar">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   تطبيق ذكاء اصطناعي
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family:  Cairo , sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-900">
+  <header class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     تطبيق ذكاء اصطناعي
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#">
+        الرئيسية
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        الميزات
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        التسعير
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        تواصل معنا
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="text-center my-8">
+    <h2 class="text-3xl font-bold mb-4">
+     مرحبًا بك في تطبيق الذكاء الاصطناعي
+    </h2>
+    <p class="text-lg mb-6">
+     مدعوم بجميع الأدوات لإنشاء صور وفيديوهات وإجابات نصية. تحدث مع الذكاء الاصطناعي عبر اتصال صوت وصورة.
+    </p>
+    <img alt="صورة توضيحية لتطبيق الذكاء الاصطناعي يظهر فيه واجهة المستخدم مع أدوات متعددة لإنشاء المحتوى" class="mx-auto mb-6" height="400" src="https://storage.googleapis.com/a1aa/image/svI0Mlrk9SK0JZxfVDMaYDSwhKsM54FfWjHnXVLxa1GkVXCUA.jpg" width="600"/>
+    <button class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">
+     ابدأ الآن
+    </button>
+   </section>
+   <section class="my-8">
+    <h3 class="text-2xl font-bold mb-4">
+     الميزات
+    </h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+     <div class="bg-white p-4 rounded-lg shadow-md">
+      <img alt="أيقونة ميزة إنشاء الصور" class="w-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/ViQ4qPe8m4QnBKIj4knWWmXaeQo2Af5TZmTt9OLQYoraruEoA.jpg" width="300"/>
+      <h4 class="text-xl font-bold mb-2">
+       إنشاء الصور
+      </h4>
+      <p>
+       استخدم الذكاء الاصطناعي لإنشاء صور مذهلة بسهولة.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-md">
+      <img alt="أيقونة ميزة إنشاء الفيديوهات" class="w-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/8zl9QGyz6qq2C577kjHenPLekn471lBVWyuXvQT6GaxsVXCUA.jpg" width="300"/>
+      <h4 class="text-xl font-bold mb-2">
+       إنشاء الفيديوهات
+      </h4>
+      <p>
+       قم بإنشاء فيديوهات احترافية باستخدام أدوات الذكاء الاصطناعي.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-md">
+      <img alt="أيقونة ميزة الإجابات النصية" class="w-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/f1iNcWNrQV1JX6Be1dvV4kDvLEBuMl7yXsD63EMTEiZqVXCUA.jpg" width="300"/>
+      <h4 class="text-xl font-bold mb-2">
+       الإجابات النصية
+      </h4>
+      <p>
+       احصل على إجابات دقيقة وسريعة على أسئلتك.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-md">
+      <img alt="أيقونة ميزة الاتصال الصوتي" class="w-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/REsackm1lwYUDN5FJNuwf7GrNn5u5thmhOqBETWZL4BzqLBKA.jpg" width="300"/>
+      <h4 class="text-xl font-bold mb-2">
+       الاتصال الصوتي
+      </h4>
+      <p>
+       تحدث مع الذكاء الاصطناعي عبر اتصال صوتي عالي الجودة.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-md">
+      <img alt="أيقونة ميزة الاتصال المرئي" class="w-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/5qJbTGstO9quFlH23EGfZhLRrS1BhJmgbF0EsxNtxTl3qLBKA.jpg" width="300"/>
+      <h4 class="text-xl font-bold mb-2">
+       الاتصال المرئي
+      </h4>
+      <p>
+       تواصل مع الذكاء الاصطناعي عبر اتصال مرئي واضح.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-md">
+      <img alt="أيقونة ميزة الدعم الفني" class="w-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/xA2I8jx511YMEBgUkLXHu3xbOAVH7O0ceO13BA0QosK0qLBKA.jpg" width="300"/>
+      <h4 class="text-xl font-bold mb-2">
+       الدعم الفني
+      </h4>
+      <p>
+       احصل على دعم فني على مدار الساعة لحل مشاكلك.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="my-8">
+    <h3 class="text-2xl font-bold mb-4">
+     التسعير
+    </h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+     <div class="bg-white p-4 rounded-lg shadow-md text-center">
+      <h4 class="text-xl font-bold mb-2">
+       الخطة المجانية
+      </h4>
+      <p class="text-2xl font-bold mb-4">
+       مجاني
+      </p>
+      <ul class="mb-4">
+       <li>
+        إنشاء صور غير محدود
+       </li>
+       <li>
+        إنشاء فيديوهات غير محدود
+       </li>
+       <li>
+        إجابات نصية غير محدودة
+       </li>
+      </ul>
+      <button class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">
+       اشترك الآن
+      </button>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-md text-center">
+      <h4 class="text-xl font-bold mb-2">
+       الخطة المتقدمة
+      </h4>
+      <p class="text-2xl font-bold mb-4">
+       $20/شهر
+      </p>
+      <ul class="mb-4">
+       <li>
+        كل ميزات الخطة المجانية
+       </li>
+       <li>
+        اتصال صوتي غير محدود
+       </li>
+       <li>
+        اتصال مرئي غير محدود
+       </li>
+      </ul>
+      <button class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">
+       اشترك الآن
+      </button>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-md text-center">
+      <h4 class="text-xl font-bold mb-2">
+       الخطة الاحترافية
+      </h4>
+      <p class="text-2xl font-bold mb-4">
+       $30/شهر
+      </p>
+      <ul class="mb-4">
+       <li>
+        كل ميزات الخطة المتقدمة
+       </li>
+       <li>
+        دعم فني مخصص
+       </li>
+       <li>
+        ميزات حصرية
+       </li>
+      </ul>
+      <button class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">
+       اشترك الآن
+      </button>
+     </div>
+    </div>
+   </section>
+   <section class="my-8">
+    <h3 class="text-2xl font-bold mb-4">
+     تواصل معنا
+    </h3>
+    <form class="bg-white p-4 rounded-lg shadow-md">
+     <div class="mb-4">
+      <label class="block text-lg font-bold mb-2" for="name">
+       الاسم
+      </label>
+      <input class="w-full p-2 border border-gray-300 rounded-lg" id="name" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-lg font-bold mb-2" for="email">
+       البريد الإلكتروني
+      </label>
+      <input class="w-full p-2 border border-gray-300 rounded-lg" id="email" type="email"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-lg font-bold mb-2" for="message">
+       الرسالة
+      </label>
+      <textarea class="w-full p-2 border border-gray-300 rounded-lg" id="message"></textarea>
+     </div>
+     <button class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700" type="submit">
+      إرسال
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer class="bg-blue-600 text-white p-4 text-center">
+   <p>
+    © 2023 تطبيق ذكاء اصطناعي. جميع الحقوق محفوظة.
+   </p>
+  </footer>
+ </body>
+</html>
